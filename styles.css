@@ -19,7 +19,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /*********************************/
@@ -35,15 +35,15 @@ body {
 }
 
 .logo {
-    height: 10rem;
-    width: 10rem;
+    height: 11rem;
+    width: 11rem;
 }
 
 .header-title {
-    margin-top: 2.6rem;
-    font-size: 3rem;
+    margin-top: .5rem;
+    font-size: 2.4rem;
     color: #fff5f5;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1.5px;
 }
 
@@ -55,6 +55,15 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.buttons-title {
+    margin-top: 2.6rem;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    color: #fff5f5;
+    font-weight: 500;
+    letter-spacing: 1.5px;
 }
 
 .button-list {
@@ -78,11 +87,24 @@ body {
     justify-content: center;
 }
 
+.button-icon {
+    color: #fff5f5;
+    height: 2.4rem;
+}
+
 .button-text {
     color: #fff5f5;
     font-size: 2rem;
     letter-spacing: 1.3px;
     font-weight: 600;
+}
+
+.button:hover {
+    background-color: #fff5f5;
+}
+
+.button:hover .button-text {
+    color: #e03131;
 }
 
 a:link,
@@ -94,6 +116,7 @@ a:hover,
 a:active {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 /*********************************/
